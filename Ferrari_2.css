@@ -78,6 +78,12 @@ section div#content_1 p{
     text-align: center;
     width: 25%;
     font-size:30px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+section div#content_1:hover p{
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 section div#content_2{
     display: block;
@@ -93,6 +99,12 @@ section div#content_2 p{
     width: 25%;
     font-size: 30px;
     padding-top: 6%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+section div#content_2:hover p{
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 section div#content_3{
     display: block;
@@ -106,6 +118,8 @@ section div#content_3 p, div#content_3 h1{
     width: 50%;
     text-align: center;
     float: right;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 section div#content_3 h1{
     padding-top: 6%;
@@ -113,6 +127,10 @@ section div#content_3 h1{
 }
 section div#content_3 p{
     font-size: 25px;
+}
+section div#content_3:hover h1, section div#content_3:hover p{
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 section div#content_4{
     display: block;
@@ -126,6 +144,8 @@ section div#content_4 p, div#content_4 h1{
     width: 50%;
     float: left;
     text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 section div#content_4 h1{
     font-size:40px;
@@ -133,6 +153,10 @@ section div#content_4 h1{
 }
 section div#content_4 p{
     font-size: 25px;
+}
+section div#content_4:hover h1, section div#content_4:hover p{
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 section div#content_5{
     display: block;
@@ -146,6 +170,8 @@ section div#content_5 p, div#content_5 h1, div#content_5 p {
     float: right;
     text-align: center;
     width: 50%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 section div#content_5 h1{
     font-size: 40px;
@@ -154,6 +180,10 @@ section div#content_5 h1{
 section div#content_5 p{
     padding-top: 0;
     font-size: 25px;
+}
+section div#content_5:hover h1, section div#content_5:hover p{
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 section img{
     border-radius: 10px;
@@ -200,7 +230,5 @@ div.icon img:first-of-type{
     padding-left: 50px;
 }
 div.icon img:last-of-type{
-    padding-left: 150px;
-    padding-top: 10%;
-    width: 25%;
+    width: 100%;
 }

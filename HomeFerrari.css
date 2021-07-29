@@ -67,21 +67,19 @@ div#image img{
     width: 50%;
 }
 h2{
-    font-size: 20px;
+    font-size: 30px;
     color:white;
     display: block;
 }
 p{
     color: white;   
-    font-size: 16px;
+    font-size: 20px;
     display: block;
 }
 figcaption p{
     padding-top: 15%;
     font-size: 40px;
-    text-shadow: 0 0 5px white, 0 0 10px white,
-    0 0 20px white, 0 0 30px white,
-    0 0 40px white;
+    text-shadow: 0 0 5px white;
 
 }
 .myimg_1 figcaption p{
@@ -215,7 +213,7 @@ div#image figure.imghvr-zoom-out-right img{
 
 [class^="imghvr-"] figcaption,
 [class*=" imghvr-"] figcaption {
-    background-color: red;
+    background:  radial-gradient(circle at center, red 0%,#8f0222 44%,#6d0019 100%);
     padding: 30px;
     position: absolute;
     top: 0;
